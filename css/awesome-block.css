@@ -1,0 +1,55 @@
+.awesome-block {
+    max-width: 1170px;
+    margin: 50px auto 0;
+}
+.awesome-block__title {
+    margin: 0 auto;
+    padding: 54px 0;
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+hr {
+    width: 170px;
+    margin: 0 auto;
+
+    color: #EC7979;
+}
+.awesome-block__description {
+    padding: 0;
+    margin: 40px auto 0;
+    text-align: center;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+}
+.advantages {
+    display: flex;
+    list-style: none;
+    margin: 71px auto 0;
+    text-align: center;
+}
+.advantage {
+    width: 370px;
+    text-align: center;
+}
+.advantage__title {
+    margin: 0 auto;
+    padding: 35px 0;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.advantage__description {
+    margin: 8px auto 0;
+    padding: 10px 0;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
