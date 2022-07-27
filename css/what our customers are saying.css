@@ -1,0 +1,84 @@
+.review-block {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.review-block__title {
+    margin: 50px auto 0;
+    padding: 54px 0;
+    text-align: center;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.review-block__line {
+    width: 170px;
+    margin: 0 auto;
+    color: #EC7979;
+}
+.review-block__paragraph {
+    margin: 40px auto 0;
+    text-align: center;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+}
+.comments {
+    display: flex;
+    list-style: none;
+    margin: 83px auto 0;
+    padding: 0;
+    text-align: center;
+    column-gap: 30px;
+}
+.comment {
+    width: 370px;
+}
+.comment__paragraph {
+    padding: 24px 0;
+    margin: 0;
+
+    font-family: Raleway,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+
+    background: #E2E2E2;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+}
+.comment__triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+
+    margin: 0 0 0 80px;
+}
+.one {
+    display: flex;
+    margin-top: 48px;
+    column-gap: 30px;
+}
+.information {
+    text-align: left;
+}
+.information__title {
+    margin: 0;
+    padding: 10px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.information__paragraph {
+    margin-top: 15px;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}

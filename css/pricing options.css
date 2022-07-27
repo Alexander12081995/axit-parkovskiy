@@ -1,6 +1,6 @@
 .pricing-block {
     width: 1170px;
-    padding: 0 15px;
+    padding: 0 15px 50px;
     margin: 58px auto 0;
     background: #F5F5F5;
 }
@@ -88,5 +88,5 @@
 }
 .list__tariff--height {
     margin: 59px auto 0;
-    box-shadow: 5px 3px 2px gray;
+
 }

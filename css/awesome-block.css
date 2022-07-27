@@ -34,6 +34,7 @@
     margin: 71px auto 0;
     padding: 0;
     text-align: center;
+    column-gap: 30px;
 }
 .advantage {
     width: 370px;
