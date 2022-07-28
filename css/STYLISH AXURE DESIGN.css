@@ -1,0 +1,45 @@
+.design-block {
+    width: 1510px;
+    padding: 50px 15px 0;
+    margin: 64px auto 0;
+    background: url("/img/abctraction.png");
+    text-align: center;
+}
+.design-block__title {
+    width: 1170px;
+    margin: 0 auto ;
+    padding: 55px 0;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.design-block__line {
+    width: 170px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+.design-block__paragraph {
+    margin: 40px auto 0;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.design-block__button {
+    width: 370px;
+    margin: 73px auto 0;
+    padding: 20px 0;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
