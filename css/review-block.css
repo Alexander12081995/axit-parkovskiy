@@ -1,28 +1,27 @@
-.review-block {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
 .review-block__title {
     margin: 50px auto 0;
     padding: 54px 0;
     text-align: center;
+    position: relative;
 
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway","Arial", sans-serif;
     font-weight: 400;
     font-size: 36px;
     text-transform: uppercase;
 }
-.review-block__line {
+.review-block__title::after {
     width: 170px;
-    margin: 0 auto;
-    color: #EC7979;
+    position: absolute;
+    content: "";
+    border: 1px solid #EC7979;
+    top: 150px;
+    left: 500px;
 }
 .review-block__paragraph {
     margin: 40px auto 0;
     text-align: center;
 
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway","Arial", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #86878B;
@@ -41,8 +40,9 @@
 .comment__paragraph {
     padding: 24px 0;
     margin: 0;
+    position: relative;
 
-    font-family: Raleway,sans-serif;
+    font-family: "Raleway","Arial", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #86878B;
@@ -51,14 +51,16 @@
     border: 1px solid #E2E2E2;
     border-radius: 10px;
 }
-.comment__triangle-down {
+.comment__paragraph::after {
+    position: absolute;
+    content: "";
     width: 0;
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-top: 20px solid #E2E2E2;
-
-    margin: 0 0 0 80px;
+    top: 133px;
+    left: 80px;
 }
 .one {
     display: flex;
@@ -68,17 +70,18 @@
 .information {
     text-align: left;
 }
+
 .information__title {
     margin: 0;
     padding: 10px 0;
-    font-family: "Open Sans", sans-serif;
+
     font-weight: 700;
     font-size: 24px;
 }
 .information__paragraph {
     margin-top: 15px;
 
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway","Arial", sans-serif;
     font-weight: 400;
     font-size: 18px;
 }

@@ -1,28 +1,29 @@
 .awesome-block {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: 50px auto 0;
+    margin-top: 50px;
 }
 .awesome-block__title {
     margin: 0 auto;
     padding: 54px 0;
-    font-family: Raleway, sans-serif;
+    position: relative;
+    font-family: "Raleway","Arial", sans-serif;
     font-size: 36px;
     font-weight: 400;
     text-align: center;
 }
-.awesome-block__line {
+.awesome-block__title::after {
+    position: absolute;
     width: 170px;
-    margin: 0 auto;
-
-    color: #EC7979;
+    content: "";
+    border: 1px solid #EC7979;
+    top: 150px;
+    left: 490px;
 }
 .awesome-block__description {
     padding: 0;
     margin: 40px auto 0;
     text-align: center;
 
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway","Arial", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #86878B;
@@ -44,7 +45,6 @@
     margin: 0 auto;
     padding: 35px 0;
 
-    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 24px;
 }
@@ -52,7 +52,7 @@
     margin: 8px auto 0;
     padding: 10px 0;
 
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway","Arial", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;

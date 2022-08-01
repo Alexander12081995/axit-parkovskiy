@@ -1,29 +1,33 @@
 .design-block {
-    width: 1510px;
-    padding: 50px 15px 0;
-    margin: 64px auto 0;
-    background: url("/img/abctraction.png");
+    margin-top: 64px;
+    background-image: url("/img/abctraction.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
 }
 .design-block__title {
     width: 1170px;
     margin: 0 auto ;
     padding: 55px 0;
+    position: relative;
 
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway","Arial", sans-serif;
     font-weight: 400;
     font-size: 36px;
     color: #FFFFFF;
 }
-.design-block__line {
+.design-block__title::after {
+    position: absolute;
     width: 170px;
-    margin: 0 auto;
-    color: #FFFFFF;
+    content: "";
+    border: 1px solid #FFFFFF;
+    top: 154px;
+    left: 500px;
 }
 .design-block__paragraph {
     margin: 40px auto 0;
 
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway","Arial", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
@@ -33,7 +37,6 @@
     margin: 73px auto 0;
     padding: 20px 0;
 
-    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 18px;
     color: #FFFFFF;

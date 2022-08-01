@@ -1,30 +1,32 @@
 .pricing-block {
-    width: 1170px;
-    padding: 0 15px 50px;
-    margin: 58px auto 0;
+    margin-top: 58px;
     background: #F5F5F5;
 }
 .pricing-block__title {
     margin: 50px auto 0;
     padding: 55px 0;
     text-align: center;
+    position: relative;
 
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway","Arial", sans-serif;
     font-size: 36px;
     font-weight: 400;
     text-transform: uppercase;
 }
-.pricing-block__line {
+.pricing-block__title::after {
+    position: absolute;
     width: 170px;
-    margin: 0 auto;
-
-    color: #EC7979;
+    content: "";
+    border: 1px solid #EC7979;
+    top: 154px;
+    left: 500px;
 }
+
 .pricing-block__paragraph {
     margin: 40px auto 0;
     text-align: center;
 
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway","Arial", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #86878B;
@@ -45,7 +47,7 @@
     margin: 0;
     padding: 15px 0;
 
-    font-family: "Open Sans", sans-serif;
+
     font-weight: 700;
     font-size: 24px;
     background: #333333;
@@ -56,14 +58,14 @@
     margin: 0;
     padding: 30px 0;
 
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway","Arial", sans-serif;
     font-weight: 700;
     font-size: 36px;
     background: #333333;
     color: white;
     border-bottom: 1px solid #F5F5F5;
 }
-.tariff__paragraph--size {
+.tariff__paragraph--option {
     padding: 15px 0;
 
     font-weight: 400;
@@ -80,13 +82,13 @@
 .preferences__one {
     padding: 15px 0;
 
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway","Arial", sans-serif;
     font-weight: 400;
     font-size: 18px;
 
     border: 1px solid #F5F5F5;
 }
-.list__tariff--height {
+.list__tariff--table {
     margin: 59px auto 0;
 
 }
