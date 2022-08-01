@@ -13,8 +13,9 @@
 .awesome-block__title::after {
     position: absolute;
     width: 170px;
+    height: 2px;
     content: "";
-    border: 1px solid #EC7979;
+    background-color: #EC7979;
     top: 150px;
     left: 490px;
 }
