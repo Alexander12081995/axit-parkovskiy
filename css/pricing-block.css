@@ -1,6 +1,6 @@
 .pricing-block {
     margin-top: 58px;
-    background: #F5F5F5;
+    background-color: #F5F5F5;
 }
 .pricing-block__title {
     margin: 50px auto 0;
@@ -90,5 +90,4 @@
 }
 .list__tariff--table {
     margin: 59px auto 0;
-
 }

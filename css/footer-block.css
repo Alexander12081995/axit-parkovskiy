@@ -1,0 +1,23 @@
+.footer-block {
+    margin: 0;
+    background-color: black;
+}
+.footer-block__table {
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    column-gap: 30px;
+}
+.footer-block__paragraph {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-family: "Raleway","Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
