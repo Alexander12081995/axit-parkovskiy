@@ -1,5 +1,5 @@
 .footer-block {
-    margin: 0;
+    margin-top: 50px;
     background-color: black;
 }
 .footer-block__table {
@@ -14,6 +14,7 @@
 }
 .footer-block__paragraph {
     margin-top: 20px;
+    margin-bottom: 0;
     padding-bottom: 20px;
     text-align: center;
     color: white;
