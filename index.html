@@ -8,10 +8,65 @@
 </head>
 <body>
 <header>
+<div class="container header">
+<div class="header__img">
+<img src="img/Logo.png" alt="logo" width="88" height="32">
+</div>
+    <nav class="header__nav nav">
+        <ul class="nav__roll roll">
+            <li class="roll__element"><a href="#features">Features</a></li>
+            <li class="roll__element"><a href="#about">About</a></li>
+            <li class="roll__element"><a href="#pricing">Pricing</a></li>
+            <li class="roll__element"><a href="#reviews">Reviews</a></li>
+            <li class="roll__element"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</div>
 </header>
 <main>
+    <section class="axit-block">
+        <div class="container">
+            <div class="axit-block__axit axit">
+                <div class="axit__block block">
+                    <img src="img/logo2.png" alt="logo" width="170" height="55" class="block__img">
+                    <h1 class="block__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                    <p class="block__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <button class="block__button" type="button">Download</button>
+                </div>
+                <div class="axit__user user">
+                    <h2 class="user__title">Try Your <b style="color: #EC7979">FREE</b> Trial Today</h2>
+                    <label><input name="Name" type="text" placeholder="Name" class="user__data"></label>
+                    <label><input name="Email" type="email" placeholder="Email" class="user__data user__data--email"></label>
+                    <label><input name="Password" type="password" placeholder="Password" class="user__data user__data--password"></label>
+                    <label><input name="Get Started" type="submit" placeholder="Get Started" class="user__data user__data--submit"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="media-block">
+        <div class="container">
+            <div class="media-block__social social">
+                <div>
+                    <h2 class="social__title">Social Media</h2>
+                    <p class="social__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aenean euismod bibendum laoreet.</p>
+                </div>
+                <div>
+                    <ul class="social__table">
+                        <li><a href="https://www.facebook.com/"><img src="img/facebook_icon.png" alt="#" width="54" height="54"></a></li>
+                        <li><a href="https://twitter.com/?lang=ru"><img src="img/twitter_icon.png" alt="#" width="54" height="54"></a></li>
+                        <li><a href="https://ru.linkedin.com/"><img src="img/linkedin_icon.png" alt="#" width="54" height="54"></a></li>
+                        <li><a href="https://www.pinterest.com/"><img src="img/pinterest_icon.png" alt="#" width="54" height="54"></a></li>
+                        <li><a href="https://www.instagram.com/"><img src="img/instagram_icon.png" alt="#" width="54" height="54"></a></li>
+                        <li><a href="https://github.com/"><img src="img/github_icon.png" alt="#" width="54" height="54"></a></li>
+                        <li><a href="https://rss.by/"><img src="img/rss_icon.png" alt="#" width="54" height="54"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="container">
-        <section class="tabs-block">
+        <section class="tabs-block" id="features">
             <ul class="tabs-block__buttons button">
                 <li><button class="button__item button__item--active" type="button">TAB 1</button></li>
                 <li><button class="button__item" type="button">TAB 2</button></li>
@@ -31,8 +86,8 @@
                 </div>
                 <img src="img/statue of liberty.png" width="470" height="500" alt="statue of liberty">
             </div>
-        </section>
-        <section class="awesome-block">
+        </section >
+        <section class="awesome-block" id="about">
             <h2 class="awesome-block__title">WHY THIS IS AWESOME</h2>
             <p class="awesome-block__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <ul class="awesome-block__list advantages">
@@ -57,7 +112,7 @@
             </ul>
         </section>
     </div>
-    <section class="pricing-block">
+    <section class="pricing-block" id="pricing">
         <div class="container">
         <h2 class="pricing-block__title">pricing options</h2>
         <p class="pricing-block__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -105,7 +160,7 @@
         </div>
     </section>
     <div class="container">
-        <section class="review-block">
+        <section class="review-block" id="reviews">
             <h2 class="review-block__title">what our customers are saying</h2>
             <p class="review-block__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <ul class="review-block__comments comments">
@@ -167,21 +222,43 @@
         <button class="design-block__button">Download</button>
         </div>
     </section>
+    <section class="contact-block" id="contact">
+        <div class="container">
+            <h2 class="contact-block__title">contact us</h2>
+            <p class="contact-block__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div>
+          <form action="https://echo.htmlacademy.ru/courses" method="post">
+              <fieldset class="contact-block__group group">
+                  <div class="group__table table">
+                  <div class="table__one one">
+                  <label><input name="Name" type="text" placeholder="Name" class="one__data"></label>
+                  <label><input name="Email" type="email" placeholder="Email" class="one__data"></label>
+                  <label><input name="Password" type="password" placeholder="Password" class="one__data"></label>
+                  </div>
+                  <div class="table__two two">
+                      <label><input name="Message" type="text" placeholder="Message" class="two__message"></label>
+                  </div>
+                      <input name="Send Message" type="submit" class="table__three">
+                  </div>
+              </fieldset>
+          </form>
+        </div>
+        </div>
+    </section>
 </main>
 <footer class="footer-block">
     <div class="container">
         <ul class="footer-block__table">
-            <li><img src="img/facebook_icon.png" alt="#" width="54" height="54"></li>
-            <li><img src="img/twitter_icon.png" alt="#" width="54" height="54"></li>
-            <li><img src="img/linkedin_icon.png" alt="#" width="54" height="54"></li>
-            <li><img src="img/pinterest_icon.png" alt="#" width="54" height="54"></li>
-            <li><img src="img/instagram_icon.png" alt="#" width="54" height="54"></li>
-            <li><img src="img/github_icon.png" alt="#" width="54" height="54"></li>
-            <li><img src="img/rss_icon.png" alt="#" width="54" height="54"></li>
+            <li><a href="https://www.facebook.com/"><img src="img/facebook_icon.png" alt="#" width="54" height="54"></a></li>
+            <li><a href="https://twitter.com/?lang=ru"><img src="img/twitter_icon.png" alt="#" width="54" height="54"></a></li>
+            <li><a href="https://ru.linkedin.com/"><img src="img/linkedin_icon.png" alt="#" width="54" height="54"></a></li>
+            <li><a href="https://www.pinterest.com/"><img src="img/pinterest_icon.png" alt="#" width="54" height="54"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="img/instagram_icon.png" alt="#" width="54" height="54"></a></li>
+            <li><a href="https://github.com/"><img src="img/github_icon.png" alt="#" width="54" height="54"></a></li>
+            <li><a href="https://rss.by/"><img src="img/rss_icon.png" alt="#" width="54" height="54"></a></li>
         </ul>
         <p class="footer-block__paragraph">© 2015 Axure Themes</p>
     </div>
-
 </footer>
 </body>
 </html>
