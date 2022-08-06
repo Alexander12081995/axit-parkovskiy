@@ -1,0 +1,74 @@
+.contact-block {
+    margin-top: 110px;
+    text-align: center;
+}
+.contact-block__title {
+    margin: 0;
+    padding-bottom: 60px;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Raleway", "Arial", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+.contact-block__title::after {
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.contact-block__paragraph {
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 0;
+
+    font-family: "Raleway", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #86878B;
+}
+.group {
+    border: none;
+    padding: 0;
+    margin-top: 90px;
+}
+.table {
+    display: flex;
+    flex-wrap: wrap;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    margin-top: 0;
+    row-gap: 50px;
+    margin-right: 30px;
+    align-items: flex-start;
+}
+.one__data {
+    width: 566px;
+    min-height: 38px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+.two__message {
+    width: 562px;
+    min-height: 220px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+.table__three {
+    margin: 54px auto 0;
+    width: 370px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background-color: #EC7979;
+}
+
+
