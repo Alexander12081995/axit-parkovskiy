@@ -33,13 +33,13 @@
                     <p class="block__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     <button class="block__button" type="button">Download</button>
                 </div>
-                <div class="axit__user user">
+                <form  method="post" action="https://echo.htmlacademy.ru/courses" class="axit__user user">
                     <h2 class="user__title">Try Your <b style="color: #EC7979">FREE</b> Trial Today</h2>
                     <label><input name="Name" type="text" placeholder="Name" class="user__data"></label>
                     <label><input name="Email" type="email" placeholder="Email" class="user__data user__data--email"></label>
                     <label><input name="Password" type="password" placeholder="Password" class="user__data user__data--password"></label>
-                    <label><input name="Get Started" type="submit" placeholder="Get Started" class="user__data user__data--submit"></label>
-                </div>
+                    <label><input name="Get Started" type="submit" placeholder="Get Started" value="Get Started" class="user__data user__data--submit"></label>
+                </form>
             </div>
         </div>
     </section>
@@ -238,7 +238,7 @@
                   <div class="table__two two">
                       <label><input name="Message" type="text" placeholder="Message" class="two__message"></label>
                   </div>
-                      <input name="Send Message" type="submit" class="table__three">
+                      <input name="Send Message" type="submit"  value="Send Message" class="table__three">
                   </div>
               </fieldset>
           </form>

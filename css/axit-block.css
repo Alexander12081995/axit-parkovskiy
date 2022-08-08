@@ -50,6 +50,7 @@
     color: #FFFFFF;
     background-color: transparent;
     cursor: pointer;
+    border: 1px solid #FFFFFF;
 }
 .axit__user {
     width: 470px;
@@ -84,6 +85,7 @@
 }
 .user__data--submit {
     margin: 72px auto 0;
+    padding: 21px;
 
     width: 470px;
     background-color: #EC7979;
