@@ -16,8 +16,6 @@ header {
     column-gap: 60px;
 }
 .roll__element {
-    text-decoration: none;
-
     font-weight: 600;
     font-size: 14px;
     color: #FFFFFF;
