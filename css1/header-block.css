@@ -1,0 +1,27 @@
+.header-block {
+    background-color: black;
+}
+.header-block__cap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-block__nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    column-gap: 30px;
+}
+.nav__element {
+    display: block;
+    text-align: center;
+    width: 75px;
+    padding: 30px 0;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
