@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    column-gap: 30px;
+    column-gap: 60px;
 }
 .nav__element {
     display: block;
@@ -24,4 +24,21 @@
     font-family: "Open Sans", "Arial", sans-serif;
     font-weight: 600;
     font-size: 14px;
+}
+@media (min-width: 420px) and (max-width: 1024px) {
+    .header-block__nav {
+        column-gap: 30px;
+    }
+}
+@media (max-width: 420px) {
+    .header-block {
+        padding-top: 20px;
+    }
+    .header-block__cap {
+    display: block;
+    }
+    .header-block__nav {
+    flex-direction: column;
+    align-items: center;
+    }
 }
