@@ -71,7 +71,7 @@
 }
 .comment__user--davis::before {
     position: absolute;
-    content: url("../img1/davis.png");
+    content: url("../img/davis.png");
     left: 0;
 }
 .comment__user--jaydon {
@@ -79,7 +79,7 @@
 }
 .comment__user--jaydon::before {
     position: absolute;
-    content: url("../img1/Jaydon.png");
+    content: url("../img/Jaydon.png");
     left: 0;
 }
 .comment__user--cooper {
@@ -87,7 +87,7 @@
 }
 .comment__user--cooper::before {
     position: absolute;
-    content: url("../img1/Cooper.png");
+    content: url("../img/Cooper.png");
     left: 0;
 }
 .user__name {
