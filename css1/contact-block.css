@@ -1,0 +1,100 @@
+.contact-block {
+    margin: 0;
+    padding: 110px 0 50px 0;
+}
+.contact-block__title {
+    position: relative;
+    margin: 0;
+    padding: 0 0 64px 0;
+    text-align: center;
+
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 36px;
+}
+.contact-block__title::after {
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+}
+.contact-block__paragraph {
+    margin: 40px 0 0 0;
+    padding: 0;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+}
+.contact-block__info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 90px 0 0 0;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.info__name {
+    margin: 0;
+    padding-bottom: 20px;
+    width: 571px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.info__email {
+    margin: 50px 0 0 0;
+    padding-bottom: 20px;
+    width: 571px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.info__password {
+    margin: 50px 0 0 0;
+    padding-bottom: 20px;
+    width: 571px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.info__message {
+    margin: 0 0 0 20px;
+    padding-bottom: 202px;
+    width: 571px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.info__send {
+    margin: 50px 0 0 0;
+    padding: 20px;
+    width: 370px;
+
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    border: 1px solid #EC7979;
+    cursor: pointer;
+}

@@ -1,0 +1,105 @@
+.comments-block {
+    margin: 0;
+    padding: 110px 0 0 0;
+    text-align: center;
+}
+.comments-block__title {
+    position: relative;
+    margin: 0;
+    padding-bottom: 61px;
+    text-transform: uppercase;
+
+    font-weight: 400;
+    font-size: 36px;
+}
+.comments-block__title::after {
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+}
+.comments-block__paragraph {
+    margin: 40px 0 0 0;
+    padding: 0;
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+}
+.comments-block__comment {
+    margin: 83px 0 0 0;
+    padding: 0;
+    display: flex;
+    column-gap: 30px;
+    list-style: none;
+}
+.comment__paragraph {
+    margin: 0;
+    padding: 40px 20px;
+    max-width: 370px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+}
+.triangle {
+    position: relative;
+}
+.triangle::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+    left: 70px;
+}
+.comment__user {
+    padding: 70px 0 0 100px;
+    text-align: start;
+}
+.comment__user--davis {
+    position: relative;
+}
+.comment__user--davis::before {
+    position: absolute;
+    content: url("../img1/davis.png");
+    left: 0;
+}
+.comment__user--jaydon {
+    position: relative;
+}
+.comment__user--jaydon::before {
+    position: absolute;
+    content: url("../img1/Jaydon.png");
+    left: 0;
+}
+.comment__user--cooper {
+    position: relative;
+}
+.comment__user--cooper::before {
+    position: absolute;
+    content: url("../img1/Cooper.png");
+    left: 0;
+}
+.user__name {
+    margin: 20px 0 0 0;
+
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.user__post {
+    margin: 35px 0 0 0;
+
+    font-weight: 400;
+    font-size: 18px;
+}

@@ -1,0 +1,19 @@
+.footer-block {
+    margin: 0;
+    padding: 42px 0 30px 0;
+    background-color: #000000;
+}
+.footer-block__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-block__paragraph {
+    margin: 35px 0 0 0;
+    padding: 0;
+    text-align: center;
+    color: #FFFFFF80;
+}

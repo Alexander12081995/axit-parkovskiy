@@ -17,11 +17,11 @@
         </div>
         <nav>
             <ul class="header-block__nav nav">
-                <li><a class="nav__element">Features</a></li>
-                <li><a class="nav__element">About</a></li>
-                <li><a class="nav__element">Pricing</a></li>
-                <li><a class="nav__element">Reviews</a></li>
-                <li><a class="nav__element">Contact</a></li>
+                <li><a href="#features" class="nav__element">Features</a></li>
+                <li><a href="#about" class="nav__element">About</a></li>
+                <li><a href="#pricing" class="nav__element">Pricing</a></li>
+                <li><a href="#reviews" class="nav__element">Reviews</a></li>
+                <li><a href="#contact" class="nav__element">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -74,8 +74,8 @@
             </div>
         </div>
     </section>
-    <div class="container">
-        <section class="tabs-block">
+    <section class="tabs-block" id="features">
+        <div class="container">
             <ul class="tabs-block__list">
                 <li class="list__button list__button--active">TAB1</li>
                 <li class="list__button">TAB2</li>
@@ -96,8 +96,10 @@
                 </div>
                 <img src="img1/statue of liberty.jpg" alt="statue of liberty" width="470" height="500">
             </div>
-        </section>
-        <section class="awesome-block">
+        </div>
+    </section>
+    <section class="awesome-block" id="about">
+        <div class="container">
             <h2 class="awesome-block__title">WHY THIS IS AWESOME</h2>
             <p class="awesome-block__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <ul class="awesome-block__list">
@@ -120,9 +122,10 @@
                         elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                 </li>
             </ul>
-        </section>
-    </div>
-    <section class="pricing-block">
+        </div>
+
+    </section>
+    <section class="pricing-block" id="pricing">
         <div class="container">
             <h2 class="pricing-block__title">pricing options</h2>
             <p class="pricing-block__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -169,6 +172,50 @@
             </ul>
         </div>
     </section>
+    <section class="comments-block" id="reviews">
+        <div class="container">
+            <h2 class="comments-block__title">what our customers are saying</h2>
+            <p class="comments-block__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <ul class="comments-block__comment">
+                <li class="comment">
+                    <p class="comment__paragraph">Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.</p>
+                    <div class="triangle"></div>
+                    <div class="comment__user comment__user--davis">
+                        <h2 class="user__name">Davis Rhiel Madsen</h2>
+                        <p class="user__post">Manager</p>
+                    </div>
+                </li>
+                <li class="comment">
+                    <p class="comment__paragraph">Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.</p>
+                    <div class="triangle"></div>
+                    <div class="comment__user comment__user--jaydon">
+                        <h2 class="user__name">Jaydon Rosser</h2>
+                        <p class="user__post">Manager</p>
+                    </div>
+                </li>
+                <li class="comment">
+                    <p class="comment__paragraph">Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.</p>
+                    <div class="triangle"></div>
+                    <div class="comment__user comment__user--cooper">
+                        <h2 class="user__name">Cooper Dorwart</h2>
+                        <p class="user__post">Manager</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
     <section class="design-block">
         <div class="container">
             <h2 class="design-block__title">STYLISH AXURE DESIGN</h2>
@@ -176,7 +223,37 @@
             <button class="design-block__button">Download</button>
         </div>
     </section>
+    <section class="contact-block" id="contact">
+        <div class="container">
+            <h2 class="contact-block__title">contact us</h2>
+            <p class="contact-block__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <form action="https://echo.htmlacademy.ru/courses" method="post" class="contact-block__info">
+                <div class="info">
+                    <label><input name="name" type="text" placeholder="Name" class="info__name"></label>
+                    <label><input name="email" type="email" placeholder="Email" class="info__email"></label>
+                    <label><input name="password" type="password" placeholder="Password" class="info__password"></label>
+                </div>
+                <div>
+                    <label><input name="message" type="text" placeholder="Message" class="info__message"></label>
+                </div>
+                <label><input name="send" type="submit" value="Send Message" class="info__send"></label>
+            </form>
+        </div>
+    </section >
 </main>
-<footer></footer>
+<footer class="footer-block">
+    <div class="container">
+        <ul class="footer-block__list">
+            <li><a href="https://www.facebook.com/"><img src="img1/facebook.png" alt="facebook" width="32" height="56"></a></li>
+            <li><a href="https://twitter.com/?lang=ru"><img src="img1/twitter.png" alt="twitter" width="59" height="48"></a></li>
+            <li><a href="https://ru.linkedin.com/"><img src="img1/linkedin.png" alt="linkedin" width="54" height="54"></a></li>
+            <li><a href="https://www.pinterest.com/"><img src="img1/pinterest.png" alt="pinterest" width="60" height="60"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="img1/instagram.png" alt="instagram" width="54" height="54"></a></li>
+            <li><a href="https://github.com/Alexander12081995/axit-parkovskiy"><img src="img1/git.png" alt="git" width="60" height="58"></a></li>
+            <li><a><img src="img1/rss.png" alt="rss" width="47" height="47"></a></li>
+        </ul>
+        <p class="footer-block__paragraph">© 2015 Axure Themes</p>
+    </div>
+</footer>
 </body>
 </html>

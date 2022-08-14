@@ -4,7 +4,11 @@
 @import "tabs-block.css";
 @import "awesome-block.css";
 @import "pricing-block.css";
+@import "comments-block.css";
 @import "desing-block.css";
+@import "contact-block.css";
+@import "footer-block.css";
+
 * {
     box-sizing: border-box;
 }
