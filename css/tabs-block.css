@@ -16,6 +16,9 @@
     font-weight: 400;
     font-size: 14px;
 }
+.list__button:hover {
+    background-color: burlywood;
+}
 .list__button--active {
     width: 204px;
     border: 1px solid #C6CBCD;
@@ -59,4 +62,5 @@
     color: #FFFFFF;
     background-color: #EC7979;
     border: 1px solid #EC7979;
+    cursor: pointer;
 }

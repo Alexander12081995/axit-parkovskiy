@@ -1,5 +1,10 @@
 .header-block {
     background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
 }
 .header-block__cap {
     display: flex;
