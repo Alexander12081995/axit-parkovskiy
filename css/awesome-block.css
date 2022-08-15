@@ -31,10 +31,40 @@
 .awesome-block__list {
     display: flex;
     justify-content: space-between;
-    margin: 71px 0 0 0;
+    margin: 241px 0 0 0;
     padding: 0;
     column-gap: 40px;
     list-style: none;
+}
+.lamp {
+    position: relative;
+}
+.lamp::before {
+    position: absolute;
+    content: url("../img/lamp.png");
+    top: -170px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.board {
+    position: relative;
+}
+.board::before {
+    position: absolute;
+    content: url("../img/board.png");
+    top: -170px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.molnia {
+    position: relative;
+}
+.molnia::before {
+    position: absolute;
+    content: url("../img/molnia.png");
+    top: -170px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .description__title {
     margin: 40px 0 0 0;

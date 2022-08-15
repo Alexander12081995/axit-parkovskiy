@@ -6,7 +6,8 @@
     text-align: center;
 }
 .price:hover {
-    transform: translateY(-40px);
+    transform: translateY(-50px);
+    transition: 0.5s;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .pricing-block__title {
