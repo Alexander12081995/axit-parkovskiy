@@ -55,3 +55,59 @@
         column-gap: 30px;
     }
 }
+@media (max-width: 1024px) {
+    .social-block {
+        margin: 0 auto;
+        padding-top: 45px;
+        padding-bottom: 45px;
+
+    }
+    .social-block__media {
+        display: block;
+        text-align: center;
+    }
+    .media__info {
+        max-width: 100%;
+    }
+    .info__title {
+        font-size: 18px;
+    }
+    .info__paragraph {
+        margin: 29px 0 0;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .media__list {
+        margin-top: 30px;
+        column-gap: 17px;
+        justify-content: center;
+    }
+    .facebook {
+        width: 26px;
+        height: 30px;
+    }
+    .twitter {
+        width: 26px;
+        height: 26px;
+    }
+    .linkedin {
+        width: 26px;
+        height: 26px;
+    }
+    .pinterest {
+        width: 26px;
+        height: 26px;
+    }
+    .instagram {
+        width: 26px;
+        height: 26px;
+    }
+    .git {
+        width: 26px;
+        height: 26px;
+    }
+    .rss {
+        width: 26px;
+        height: 26px;
+    }
+}

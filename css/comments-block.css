@@ -147,3 +147,59 @@
         font-size: 14px;
     }
 }
+@media (max-width: 1024px) {
+    .comments-block {
+        padding-top: 36px;
+    }
+    .comments-block__title {
+        padding-bottom: 38px;
+        font-size: 24px;
+    }
+    .comments-block__title::after {
+        width: 134px;
+    }
+    .comments-block__paragraph {
+        margin-top: 26px;
+        font-size: 14px;
+    }
+    .comments-block__comment {
+        display: inline-block;
+    }
+    .comment__jaydon {
+        margin-top: 25px;
+    }
+    .comment__davis {
+        display: none;
+    }
+    .comment__cooper {
+        display: none;
+    }
+    .comment__paragraph {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .comment__user {
+        padding: 50px 0 0 77px;
+    }
+    }
+    .comment__user--jaydon::before {
+        position: absolute;
+        content: url("../img/jaydon(mobail).png");
+    }
+    .user__name {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .user__post {
+        position: relative;
+        margin-top: 25px;
+        padding-bottom: 50px;
+        font-size: 13px;
+    }
+    .user__post::after {
+        position: absolute;
+        content: url("../img/dots.png");
+        bottom: 0;
+        left: 0;
+
+}

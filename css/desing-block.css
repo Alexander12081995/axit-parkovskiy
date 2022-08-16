@@ -67,3 +67,27 @@
         min-width: 318px;
     }
 }
+@media (max-width: 1024px) {
+    .design-block {
+        padding: 50px 0 60px 0;
+        margin-top: 30px;
+    }
+    .design-block__title {
+        padding-bottom: 50px;
+        font-size: 24px;
+    }
+    .design-block__title::after {
+        width: 134px;
+    }
+    .design-block__paragraph {
+        margin-top: 23px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .design-block__button {
+        margin-top: 67px;
+        padding: 15px;
+        min-width: 288px;
+        max-width: 288px;
+    }
+}

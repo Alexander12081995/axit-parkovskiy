@@ -94,3 +94,42 @@
         min-width: 231px;
     }
 }
+@media (max-width: 1024px) {
+    .tabs-block {
+        margin-top: 41px;
+    }
+    .information__img {
+        display: none;
+    }
+    .list__button {
+        width: 92px;
+        padding: 15px;
+    }
+    .list__button--active {
+        width: 102px;
+    }
+    .tabs-block__information {
+        text-align: center;
+        min-width: 288px;
+    }
+    .information {
+        padding: 35px 20px 30px 20px;
+    }
+    .information__title {
+        font-size: 18px;
+    }
+    .information__paragraph {
+        margin-top: 70px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .information__paragraph--size {
+        margin-top: 20px;
+    }
+    .information__button {
+        margin-top: 29px;
+        padding: 16px;
+        min-width: 242px;
+    }
+}
+
