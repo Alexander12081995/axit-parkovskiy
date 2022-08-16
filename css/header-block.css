@@ -25,5 +25,29 @@
     font-weight: 600;
     font-size: 14px;
 }
+@media (max-width: 1024px) {
+    .header-block {
+        padding: 16px 0 200px 0;
+    }
+    .header-block__cap {
+        display: block;
+    }
+    .header-block__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav__element {
+        display: block;
+        text-align: center;
+        width: 75px;
+        padding: 30px 0;
+        color: #FFFFFF;
+        text-decoration: none;
 
+        font-family: "Open Sans", "Arial", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
 

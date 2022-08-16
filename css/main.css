@@ -27,3 +27,9 @@ body {
         max-width: 992px;
     }
 }
+@media (max-width: 1024px) {
+    .container {
+        max-width: none;
+        padding: 0 20px;
+    }
+}
