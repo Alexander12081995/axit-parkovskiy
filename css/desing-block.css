@@ -44,3 +44,26 @@
     background-color: transparent;
     cursor: pointer;
 }
+@media (max-width: 1510px) {
+    .design-block {
+        padding: 100px 0 50px 0;
+        margin: 57px 0 0;
+    }
+    .design-block__title {
+        padding-bottom: 51px;
+        font-size: 24px;
+    }
+    .design-block__title::after {
+        width: 142px;
+    }
+    .design-block__paragraph {
+        margin: 32px 0 0;
+
+        font-size: 14px;
+    }
+    .design-block__button {
+        margin: 32px 0 0;
+        padding: 15px;
+        min-width: 318px;
+    }
+}

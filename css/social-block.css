@@ -35,43 +35,23 @@
     padding: 0;
     list-style: none;
 }
-@media (min-width: 420px) and (max-width: 1024px){
+@media (max-width: 1510px) {
     .social-block {
-        padding: 15px;
+        padding: 17px;
     }
-    .info__title {
-        font-size: 18px;
-    }
-    .info__paragraph {
+    .media__info {
         max-width: 402px;
-        margin: 28px 0 0 0;
-        font-size: 14px;
-        line-height: 16px;
-    }
-    .media__list {
-        column-gap: 20px;
-    }
-}
-@media (max-width: 420px) {
-    .social-block {
-        padding-top: 45px;
-        padding-bottom: 45px;
-    }
-    .social-block__media {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
     }
     .info__title {
         font-size: 18px;
     }
     .info__paragraph {
-        margin: 29px 0 0 0;
+        margin: 30px 0 0;
+
         font-size: 14px;
         line-height: 16px;
     }
     .media__list {
-        column-gap: 10px;
+        column-gap: 30px;
     }
 }

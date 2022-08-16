@@ -14,7 +14,11 @@
     <div class="container header-block__cap">
         <div>
             <a href="#axit">
-                <img src="img/logo1.png" width="88" height="32" alt="logo">
+                <picture>
+                    <source srcset="img/logo1(tablet).png" media="(max-width: 1510px)">
+                    <img src="img/logo1.png" width="88" height="32" alt="logo">
+                </picture>
+
             </a>
         </div>
         <nav>
@@ -33,7 +37,10 @@
         <div class="container">
             <div class="axit-block__block">
                 <div class="block__modern">
-                    <img src="img/logo2.png" width="170" height="55" alt="logo" class="modern__img">
+                    <picture>
+                        <source srcset="img/logo2(tablet).png" media="(max-width: 1510px)">
+                        <img src="img/logo2.png" width="170" height="55" alt="logo" class="modern__img">
+                    </picture>
                     <h1 class="modern__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
                     <p class="modern__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     <button class="modern__button">Download</button>
@@ -96,7 +103,10 @@
                     </p>
                     <button class="information__button">Download</button>
                 </div>
-                <img src="img/statue of liberty.jpg" alt="statue of liberty" width="470" height="500">
+                <picture>
+                    <source srcset="img/statue of liberty(tablet).jpg" media="(max-width: 1510px)">
+                    <img src="img/statue of liberty.jpg" alt="statue of liberty" width="470" height="500">
+                </picture>
             </div>
         </div>
     </section>
@@ -122,7 +132,6 @@
                 </li>
             </ul>
         </div>
-
     </section>
     <section class="pricing-block" id="pricing">
         <div class="container">
@@ -232,9 +241,7 @@
                     <label><input name="email" type="email" placeholder="Email" class="info__email"></label>
                     <label><input name="password" type="password" placeholder="Password" class="info__password"></label>
                 </div>
-                <div>
-                    <label><input name="message" type="text" placeholder="Message" class="info__message"></label>
-                </div>
+                <label class="info-text"><input name="message" type="text" placeholder="Message" class="info__message"></label>
                 <label><input name="send" type="submit" value="Send Message" class="info__send"></label>
             </form>
         </div>

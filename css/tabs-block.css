@@ -64,3 +64,33 @@
     border: 1px solid #EC7979;
     cursor: pointer;
 }
+@media (max-width: 1510px) {
+    .tabs-block {
+        margin-top: 50px;
+    }
+    .list__button {
+        width: 156px;
+    }
+    .list__button--active {
+        width: 172px;
+    }
+    .information {
+        margin: 0;
+        padding: 35px 26px 50px 85px;
+    }
+    .information__title {
+        font-size: 24px;
+    }
+    .information__paragraph {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .information__paragraph--size {
+        margin-top: 21px;
+    }
+    .information__button {
+        margin: 38px 0 0;
+        padding: 15px;
+        min-width: 231px;
+    }
+}

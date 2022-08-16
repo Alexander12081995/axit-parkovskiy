@@ -17,3 +17,11 @@
     text-align: center;
     color: #FFFFFF80;
 }
+@media (max-width: 1510px) {
+    .footer-block__list {
+        column-gap: 30px;
+    }
+    .footer-block__paragraph {
+        margin: 40px 0 0;
+    }
+}

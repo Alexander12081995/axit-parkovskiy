@@ -88,3 +88,37 @@
     color: #86878B;
     border: 2px solid #F5F5F5;
 }
+@media (max-width: 1510px) {
+    .pricing-block {
+        padding-top: 100px;
+    }
+    .price:hover {
+        transform: translateY(-25px);
+    }
+    .pricing-block__title {
+        padding-bottom: 50px;
+
+        font-size: 24px;
+    }
+    .pricing-block__title::after {
+        width: 142px;
+    }
+    .pricing-block__paragraph {
+        margin: 32px 0 0;
+
+        font-size: 14px;
+    }
+    .pricing-block__price {
+        margin: 49px 0 0;
+    }
+    .price__title {
+        min-width: 317px;
+    }
+    .price__paragraph {
+        padding: 26px;
+        min-width: 317px;
+    }
+    .price__paragraph--option {
+        font-size: 18px;
+    }
+}
