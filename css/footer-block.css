@@ -25,3 +25,14 @@
         margin: 40px 0 0;
     }
 }
+@media (max-width: 1024px) {
+    .footer-block {
+        padding: 38px 0 47px 0;
+    }
+    .footer-block__list {
+        column-gap: 17px;
+    }
+    .footer-block__paragraph {
+        margin-top: 46px;
+    }
+}

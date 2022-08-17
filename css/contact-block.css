@@ -142,3 +142,46 @@
         width: 318px;
     }
 }
+@media (max-width: 1024px) {
+    .contact-block {
+        padding: 50px 0 40px 0;
+    }
+    .contact-block__title {
+        padding-bottom: 51px;
+        font-size: 24px;
+    }
+    .contact-block__title::after {
+        width: 134px;
+    }
+    .contact-block__paragraph {
+        margin-top: 24px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .contact-block__info {
+        display: flex;
+        flex-direction: column;
+        margin: 64px auto 0;
+        max-width: 288px;
+    }
+    .info__name {
+        padding-bottom: 15px;
+        width: 288px;
+    }
+    .info__email {
+        padding-bottom: 15px;
+        width: 288px;
+    }
+    .info__password {
+        padding-bottom: 15px;
+        width: 288px;
+    }
+    .info__message {
+        margin: 50px 0 0;
+        width: 288px;
+    }
+    .info__send {
+        padding: 15px;
+        width: 288px;
+    }
+}
