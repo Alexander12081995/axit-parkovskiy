@@ -17,12 +17,24 @@
     text-align: center;
     color: #FFFFFF80;
 }
+.footer-block__img-wrapper {
+    width: 45px;
+    height: 45px;
+}
+.footer-block__img {
+    width: 100%;
+    height: 100%;
+}
 @media (max-width: 1510px) {
     .footer-block__list {
         column-gap: 30px;
     }
     .footer-block__paragraph {
         margin: 40px 0 0;
+    }
+    .footer-block__img-wrapper {
+        width: 38px;
+        height: 38px;
     }
 }
 @media (max-width: 1024px) {
@@ -34,5 +46,9 @@
     }
     .footer-block__paragraph {
         margin-top: 46px;
+    }
+    .footer-block__img-wrapper {
+        width: 28px;
+        height: 28px;
     }
 }

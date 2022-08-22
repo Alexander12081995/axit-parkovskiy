@@ -64,6 +64,9 @@
     border: 1px solid #EC7979;
     cursor: pointer;
 }
+.information__img {
+    height: 100%;
+}
 @media (max-width: 1510px) {
     .tabs-block {
         margin-top: 50px;
